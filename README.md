@@ -10,7 +10,8 @@ ToyyibPay Node.js SDK
 
 ```js
 let { ToyyibPay } = require("./index");
-let toyyib = ToyyibPay("secretkey", { dev: true });
+// let toyyib = ToyyibPay("secretkey", { dev: true }); // For SandBox
+let toyyib = ToyyibPay("secretkey");
 
 toyyib
   .getBank()
