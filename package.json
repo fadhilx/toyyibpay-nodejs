@@ -1,0 +1,25 @@
+{
+  "name": "toyyibpay-nodejs",
+  "version": "1.0.0",
+  "description": "ToyyibPay SDK for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhilx/toyyibpay-nodejs.git"
+  },
+  "keywords": [
+    "nodjs",
+    "toyyibPay",
+    "payment",
+    "gateway"
+  ],
+  "author": "fadhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadhilx/toyyibpay-nodejs/issues"
+  },
+  "homepage": "https://github.com/fadhilx/toyyibpay-nodejs#readme"
+}
