@@ -1,6 +1,6 @@
 {
   "name": "toyyibpay-nodejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ToyyibPay SDK for nodejs",
   "main": "index.js",
   "scripts": {
