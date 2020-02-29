@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/fadhilx/toyyibpay-nodejs/issues"
   },
-  "homepage": "https://github.com/fadhilx/toyyibpay-nodejs#readme"
+  "homepage": "https://github.com/fadhilx/toyyibpay-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
