@@ -1,6 +1,6 @@
 let axios = require("axios").default;
 let urls = require("./core/urls.js");
-
+const querystring = require("querystring");
 function ToyyibPay(secret, { dev } = {}) {
   let toyyibpay = axios.create({
     baseURL: "https://toyyibpay.com/",
@@ -27,11 +27,11 @@ function ToyyibPay(secret, { dev } = {}) {
           } else if (params[inputkey] != undefined) {
             params[inputkey] = params[inputkey];
           } else if (!urls[methodName].input[inputkey].optional) {
-            throw `parameter ${inputkey} required`;
+            throw `parameter ${inputkey} required on method ${methodName}`;
           }
         }
         console.log(toyyibpay.defaults.baseURL, url, { params });
-        return toyyibpay.post(url, { params });
+        return toyyibpay.post(url, querystring.stringify(params));
       };
     }
     return api;
