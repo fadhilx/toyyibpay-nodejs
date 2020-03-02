@@ -30,7 +30,7 @@ function ToyyibPay(secret, { dev } = {}) {
             throw `parameter ${inputkey} required on method ${methodName}`;
           }
         }
-        console.log(toyyibpay.defaults.baseURL, url, { params });
+        // console.log(toyyibpay.defaults.baseURL, url, { params });
         return toyyibpay.post(url, querystring.stringify(params));
       };
     }

@@ -26,7 +26,7 @@ toyyib
 
 ## Diclaimer
 
-This is **NOT** an official SDK. I dont have OEM/Enterprise partnership, so i cant test the endpoint with parameter `partnerType`, i just write it according to docs. i dont responsible for any loss.
+This is **NOT** an official SDK. I dont have OEM/Enterprise partnership, so i cant test the endpoint with parameter `partnerType`, i just write it according to docs. i will not responsible for any loss.
 
 ## Support
 
