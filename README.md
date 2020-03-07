@@ -1,6 +1,6 @@
 # toyyibpay-nodejs
 
-ToyyibPay Node.js SDK
+unofficial ToyyibPay Node.js SDK
 
 ## Installation
 
@@ -24,7 +24,7 @@ toyyib
   });
 ```
 
-## Diclaimer
+## Disclaimer
 
 This is **NOT** an official SDK. I dont have OEM/Enterprise partnership, so i cant test the endpoint with parameter `partnerType`, i just write it according to docs. i will not responsible for any loss.
 
