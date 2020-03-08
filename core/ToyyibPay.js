@@ -20,3 +20,4 @@ class ToyyibPay {
   getSettlement() {}
   getSettlementSummary() {}
 }
+export default ToyyibPay;
