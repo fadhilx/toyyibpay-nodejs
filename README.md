@@ -9,9 +9,9 @@ unofficial ToyyibPay Node.js SDK
 ## Examples
 
 ```js
-let { ToyyibPay } = require("./index");
-// let toyyib = ToyyibPay("secretkey", { dev: true }); // For SandBox
-let toyyib = ToyyibPay("secretkey");
+require("dotenv").config()
+const ToyyibPay = require("toyyibpay-nodejs").ToyyibPay
+let toyyib = ToyyibPay("secretkey", { dev: process.env.STAGE })
 
 toyyib
   .getBank()
@@ -22,6 +22,17 @@ toyyib
   .catch(e => {
     console.log(".getBank on error");
   });
+
+const bilCode = "exampleCode"
+
+toyyib
+  .getBillTransactions({
+    billCode 
+  })
+  .then(bill => {
+    console.log(".getBank success");
+    console.log(bill["data"]);
+  })
 ```
 
 ## Disclaimer
