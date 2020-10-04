@@ -30,7 +30,7 @@ toyyib
     billCode 
   })
   .then(bill => {
-    console.log(".getBank success");
+    console.log(".getBillTransactions success");
     console.log(bill["data"]);
   })
 ```
